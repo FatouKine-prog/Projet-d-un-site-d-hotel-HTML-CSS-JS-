@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotel ADKINE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- la nav de ma page -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <div class="justify-content: center;">
+                <a class="navbar-brand" href="index.html"><img src="/img/logo.png" alt="logo ADKINE"></a>
+            </div>
+            <!-- mon burger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home"></i> Accueil</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="chambres.html"><i class="fas fa-bed"></i>
+                            Chambres</a></li>
+                    <li class="nav-item"><a class="nav-link" href="restaurant.html"><i class="fas fa-utensils"></i>
+                            Restaurant</a></li>
+                    <li class="nav-item"><a class="nav-link" href="spa.html"><i class="fas fa-spa"></i> Spa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reservation.html"><i class="far fa-calendar-alt"></i>
+                            Réservation</a></li>
+                    <!-- Contact -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Contact
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-phone"></i> Téléphone</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Options de langue -->
+                    
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto">
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fr" href="#" id="navbarDropdownMenuLink" role="button"
+                              data-toggle="dropdown" aria-expanded="false">
+                              FR
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="#">EN</a></li>
+                              <li><a class="dropdown-item" href="#">ES</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                 
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br><br><br>
+    <!-- carrousel des images -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/img1/1.jpg" class="d-block w-100" alt="im">
+            </div>
+            <div class="carousel-item">
+                <img src="/img1/2.jpg" class="d-block w-100" alt="ibz">
+            </div>
+            <div class="carousel-item">
+                <img src="/img1/3.jpg" class="d-block w-100" alt="bold">
+            </div>
+            <div class="carousel-item">
+                <img src="/img1/4.jpg" class="d-block w-100" alt="bold">
+            </div>
+            <div class="carousel-item">
+                <img src="/img1/5.jpg" class="d-block w-100" alt="bold">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="fas fa-angle-left" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="fas fa-angle-right" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <h4 class="titre">UN HÔTEL AU CHARME D'IBIZA EN PLEIN COEUR DU QUARTIER EULALIA</h4>
+    <p class="resume">
+        Au cœur d'Ibiza, idéalement situé dans le magnifique quartier Eulalia, l'hôtel ADKINE et ses 78 chambres vous
+        invitent à découvrir Ibiza d’autrefois.
+        À peine le seuil de la porte franchi, vous serez séduit par l’atmosphère de notre établissement où règne un
+        charme parisien authentique. Les poutres en bois et les murs en pierre reflètent l’histoire de la bâtisse et
+        donnent un cachet unique au lieu. Notre décoration résolument moderne sublime parfaitement la typicité de notre
+        hôtel et offre tout le confort nécessaire pour vivre un agréable séjour.
+    </p>
+    <!-- Les 4 colonnes -->
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col4">
+                <div class="carre">
+                    <div class="text">
+                        <p class="carre1"><img alt="" src="img1/diamant.png"></p>
+                        <p class="surtitre"><strong>CHARME &amp; MODERNITE</strong></p>
+                        <p class="surtitre">Nos chambres sont à l’image de notre hôtel charmantes et authentiques. Elles
+                            offrent toutes des équipements modernes ainsi qu’une salle de bain privative avec douche ou
+                            baignoire. Dormez en toute sérénité lors de votre séjour.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col4">
+                <div class="carre">
+                    <div class="text">
+                        <p class="carre1"><img alt="" src="img1/manger.png"></p>
+                        <p class="surtitre"><strong>RESTAURANT</strong></p>
+                        <p class="surtitre">Au rez-de-chaussée, une ambiance moderne noir et blanc vous attend. La salle
+                            à l'étage offre une atmosphère calme et intimiste. Quand le soleil s'invite, profitez de notre
+                            belle terrasse et d'une belle vue ! Soucieux d’être au cœur de la vie du restaurant.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col4">
+                <div class="carre">
+                    <div class="text">
+                        <p class="carre1"><img alt="" src="img1/mer.png"></p>
+                        <p class="surtitre"><strong>EMPLACEMENT</strong></p>
+                        <p class="surtitre">À quelques pas du centre d'IBIZA, notre hôtel est idéalement situé au centre
+                            du quartier Eulalia. A proximité de grands sites touristiques comme l’Hôtel de Ville ou encore
+                            la mer, vous découvrirez en séjournant chez nous le cœur historique d'Ibiza. Profitez d'une vue
+                            paranomique avec ADKINE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col4">
+                <div class="carre">
+                    <div class="text">
+                        <p class="carre1"><img alt="" src="img1/eco.png"></p>
+                        <p class="surtitre"><strong>ÉCOLOGIE</strong></p>
+                        <p class="surtitre">L’hôtel ADKINE s’engage pour la planète et met en place de nombreuses
+                            actions environnementales. Demandez plus de renseignements à la réception. Votre bien-être
+                            est à l’honneur ! Une harmonisation contre les ondes électromagnétiques et un système de
+                            filtration de l’air.L'écologie est un devoir.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- chambre  -->
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="fotochambres col-md-4">
+            </div>
+            <div class="fondchambres col-md-8 d-flex flex-column justify-content-center">
+                <h4 class="titre">NOS CHAMBRES</h4>
+                <p class="c2">L'hôtel ADKINE abrite 78 chambres tout confort.
+                    Que vous préfériez la vue sur la rue piétonne, la vue sur cour, ou celle sur mer, vous apprécierez
+                    les poutres massives et les pierres apparentes qui confèrent une ambiance parisienne authentique à
+                    nos chambres.
+                    Elles déclinent chacune leur personnalité avec comme dénominateurs communs, élégance et charme.
+                </p>
+                <a href="chambres.html" class="btnbutton" role="button">EN SAVOIR PLUS</a>
+            </div>
+        </div>
+    </div>
+    <br><br>    
+    <!-- restaurant -->
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="fondresto col-md-8 d-flex flex-column justify-content-center">
+                <h4 class="titre">NOTRE RESTAURANT</h4>
+                <p class="c2"> ADKINE propose un large choix de restaurants : de la
+                    restauration rapide au restaurant gastronomique, de la cuisine espagnole à la cuisine exotique...
+                    même les plus exigeants y trouveront leur bonheur!
+                    Nous avons le plaisir de vous faire partager nos meilleures adresses du quartier !
+                    N'hésitez pas à solliciter nos équipes qui se feront un plaisir d'organiser votre soirée et qui
+                    vous conseilleront les adresses les plus adaptées à vos envies!
+                </p>
+                <a href="restaurant.html" class="btnbutton" role="button">EN SAVOIR PLUS</a>
+            </div>
+            <div class="col-md-4 fotorestos">
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!-- SPA -->
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="spafoto col-md-4">
+            </div>
+            <div class="fondchambres col-md-8 d-flex flex-column justify-content-center">
+                <h4 class="titre">Spa Les Bains d'ADKINE</h4>
+                <p class="c2"> Au calme des étangs, dans le murmure de la nature, laissez-vous transporter par la magie
+                    de ce lieu unique à deux pas du centre d'Ibiza ! Avec son sauna, son bassin à remous ouvert sur
+                    l’extérieur
+                    mais à l’abri des intempéries, ses soins issus de la terre, de la mer et de leur nature secrète…
+                    découvrez le bonheur de se relaxer dans un environnement exceptionnel à la fois si proche de la
+                    ville et pourtant si dépaysant.
+                </p>
+                <a href="spa.html" class="btnbutton" role="button">EN SAVOIR PLUS</a>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <!-- mon footer  -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5 class="contact">CONTACT & ACCÉS</h5>
+                    <hr class="separateur">
+                    <p class="loc">
+                        <a href="https://maps.app.goo.gl/GRBqqMMWhuJC8r1g6">
+                            <i class="fas fa-map-marker-alt"></i> Carrer de Ramon Muntaner, 25, 07800 Ibiza, Balearic
+                            Islands,Espagne
+                        </a>
+                    </p>
+                    <p class="mail">
+                        <a href="mailto:hotel.adkine@yahoo.com">
+                            <i class="fas fa-envelope"></i> hotel.adkine@yahoo.com
+                        </a>
+                    </p>
+                    <p class="phone">
+                        <a href="tel:+33-123-456-789">
+                            <i class="fas fa-phone"></i> +33 123 456 789
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-md-3">
+                    <h5 class="contact">CARTE</h5>
+                    <hr class="separateur">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.806967193781!2d1.422332974413107!3d38.90552934622681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1299472bdb11d721%3A0xf65ec37b4fc5d60b!2sEurostars%20Ibiza!5e0!3m2!1ses!2sfr!4v1710852827023!5m2!1ses!2sfr"
+                        width="200" height="125" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <br><br>
+                <div class="col-md-4">
+                    <h5 class="liens">LIENS UTILES</h5>
+                    <hr class="separateur">
+                    <p class="liens"><a href="presse.html">● Presse</a></p>
+                    <p class="liens"><a href="evenements.html">● Événements</a></p>
+                    <p class="liens"><a href="avis.html">● Avis</a></p>
+                    <p class="liens"><a href="recrutement.html">● Recrutement</a></p>
+                    <p class="liens"><a href="quisommesnous.html">● Qui sommes nous?</a></p>
+                </div>
+                <div class="col-md-12">
+                    <a class="logoh" href="index.html"><img src="/img/loho.png" alt="logo ADKINE"></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="mentions-legales.html">Mentions Légales</a><i>●</i>
+                <a href="conditions-generales.html">Conditions Générales de Vente</a>
+            </div>
+            <input type="text" id="searchInput" placeholder="Rechercher...">
+                <ul id="searchResults"></ul>  
+                <li class="liens1">
+                    <a href="chambres.html">Chambres</a>
+                    <a href="restaurant.html">Restaurant</a>
+                    <a href="spa.html">Spa</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="avis.html">avis</a>
+                    <a href="presse.html">Presse</a>
+                    <a href="evenements.html">Événements</a>
+                    <a href="reservation.html">Réservation</a>
+                    <a href="recrutement.html">Recrutement</a>
+                    <a href="quisommesnous.html">Qui sommes nous?</a>
+                    <a href="mentions-legales.html">Mentions Légales</a>
+                    <a href="conditions-generales.html">Conditions Générales</a>
+                    <a href="contact.html">Contact</a>
+                </li>      
+            <p>&copy; 2024 Hôtel ADKINE. Tous droits réservés. CONCU par FATOU KINÉ NDIAYE</p>
+        </div>
+    </footer>
+    <!-- fin du footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

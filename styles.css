@@ -1,0 +1,437 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* barre de navigation */
+nav {
+    background-color: #e6d3b9;
+    padding: 10px 0;
+    /* Ajout d'un espace en haut et en bas de la barre de navigation */
+    position: fixed;
+    /* Fixer la barre de navigation en haut de la page */
+    top: 0;
+    /* Positionner la barre de navigation au sommet de la page */
+    width: 100%;
+    /* Utiliser toute la largeur de la page */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    /* Aligner les éléments vers la droite */
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+
+}
+
+.navbar-brand {
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+}
+
+.navbar-brand img {
+    width: 100px;
+    /* ajustez la taille du logo */
+    justify-content: center;
+
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* footer  */
+footer {
+    background-color: #e6d3b9;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #6f5f06;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.logoh img {
+    width: 20%;
+
+}
+
+.contact {
+    font-weight: bold;
+    font-family: 'Georgia', sans-serif;
+    color: #282727cc;
+}
+
+.liens {
+    font-weight: bold;
+    font-family: 'Georgia', sans-serif;
+    color: #282727cc;
+    text-align: left;
+    justify-content: baseline;
+}
+
+.mentions {
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Georgia', sans-serif;
+    color: #282727cc;
+}
+
+.separateur {
+    color: black;
+}
+
+/* accueil  */
+.avantages {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+    color: #282727cc;
+}
+
+.titre {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+    color: #282727cc;
+}
+
+.resume {
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+    color: #282727cc;
+    margin-left: 10px;
+}
+
+.text {
+    border: 2px solid #dcbc8a;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+.text img {
+    height: 50px;
+    width: 50px
+}
+
+.surtitre {
+    text-align: center;
+    position: sticky; /* Position fixe */
+            top: 0; /* Collé en haut */
+}
+
+.carre1 {
+    text-align: center;
+}
+
+.col4 {
+    width: 50%;
+    /* Pour occuper 1/3 de la largeur avec un espacement entre les éléments */
+    margin-bottom: 20px;
+    /* Espacement entre les lignes */
+}
+
+.chambres {
+    width: 20px;
+    height: 20px;
+}
+
+.fotochambres {
+    height: 450px;
+    background-image: url("/img/c1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c1 {
+    color: #282727cc;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.btnbutton {
+    color: rgb(108, 121, 167);
+}
+
+.fondchambres {
+    color: rgb(241, 241, 241);
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(232, 229, 229, 0.984);
+    /* Couleur du fond */
+    padding: 50px;
+    z-index: 100;
+    /* Empilement au-dessus de l'image */
+    height: 450px;
+}
+
+/* spa  */
+.imgspa {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.superposer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #282727cc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    width: 290px;
+}
+
+.superposer1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fffcfccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    width: 290px;
+}
+
+.surtitre_spa {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.titre_spa {
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Georgia', sans-serif;
+    color: #282727cc;
+    margin-left: 10px;
+}
+
+.fotofillespa {
+    height: 700px;
+}
+
+.btn {
+    text-align: center;
+    color: rgb(179, 141, 74);
+    margin-left: 45%;
+}
+
+.card {
+    margin-bottom: 20px;
+    /* Ajout d'une marge en bas de chaque carte */
+    margin-left: 20px;
+
+}
+
+/* restaurant  */
+.fotoresto {
+    height: 450px;
+    justify-content: center;
+    text-align: center;
+}
+
+.p_resto {
+    text-align: center;
+}
+
+.titre_resto {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+    color: #282727cc;
+    margin-top: 20%;
+}
+
+.btn-group {
+    text-align: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.fondresto {
+    color: rgb(241, 241, 241);
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(232, 229, 229, 0.984);
+    /* Couleur du fond */
+    padding: 50px;
+    z-index: 100;
+    /* Empilement au-dessus de l'image */
+    height: 450px;
+}
+
+.fotorestos {
+    height: 450px;
+    background-image: url("/img/g3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.spafoto {
+    height: 450px;
+    background-image: url("/img/spa1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.c2 {
+    color: #282727cc;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.block1 {
+    text-align: left;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+
+}
+
+.block {
+    text-align: left;
+    /* justify-content: center; 
+    top: 50%;
+    left: 50%; 
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10px; */
+
+}
+
+.submit {
+    margin-right: 30%;
+    color: #f0af36;
+
+}
+
+.imgresto {
+    position: relative;
+}
+
+.imgresto img {
+    width: 100%;
+    height: auto;
+}
+
+.superposer2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(239, 227, 209, 0.285);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+    width: 390px;
+    height: 150px;
+
+}
+
+/* recrutement  */
+.container {
+    background-color: rgb(245, 233, 216);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.block label {
+    display: block;
+    font-weight: bold;
+}
+
+.textfile {
+    color: rgb(237, 199, 96);
+}
+
+/* chambres  */
+.conteneur {
+    overflow: hidden;
+    max-width: 960px;
+    margin: 20px auto;
+    box-shadow: 0px 15px 10px 0px #777;
+}
+
+.bouton {
+    color: rgb(179, 141, 74);
+    margin-left: 70%;
+}
+
+/* qui sommes nous */
+.nous {
+    text-align: left;
+}
+
+/* avis */
+.block2 {
+    border: 5px solid #dcbc8a;
+    padding: 10px;
+    /* Ajout de marge intérieure pour le contenu */
+    text-align: center;
+
+}
+
+textarea {
+    width: calc(100% - 16px);
+    /* Calculer la largeur correcte pour compenser les bordures */
+    margin: 0;
+    /* Réinitialiser les marges par défaut */
+    border: none;
+    /* Supprimer la bordure du textarea */
+    resize: none;
+    /* Empêcher le redimensionnement du textarea */
+    outline: none;
+    /* Supprimer le focus outline */
+    text-align: center;
+
+}
+
+/* Style pour la barre de recherche */
+.form-control {
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+}
+

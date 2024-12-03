@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotel ADKINE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- la nav de ma page -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <div class="justify-content: center;">
+                <a class="navbar-brand" href="index.html"><img src="/img/logo.png" alt="logo ADKINE"></a>
+            </div>
+            <!-- mon burger -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home"></i> Accueil</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="chambres.html"><i class="fas fa-bed"></i>
+                            Chambres</a></li>
+                    <li class="nav-item"><a class="nav-link" href="restaurant.html"><i class="fas fa-utensils"></i>
+                            Restaurant</a></li>
+                    <li class="nav-item"><a class="nav-link" href="spa.html"><i class="fas fa-spa"></i> Spa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reservation.html"><i class="far fa-calendar-alt"></i>
+                            Réservation</a></li>
+                    <!-- Contact -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Contact
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#"><i class="fas fa-phone"></i> Téléphone</a></li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Options de langue -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            FR
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">EN</a></li>
+                            <li><a class="dropdown-item" href="#">ES</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br><br><br>
+    <div class="imgresto">
+        <img src="/img/recru.webp" class="d-block w-100" alt="spa">
+        <div class="superposer2">¡Unissez vous a la famille de l'hotel ADKINE!</div>
+    </div>
+    <br>
+    <h3 class="titre">Recherche de professionnel pour travailler avec nous! </h3>
+    <br>
+    <form>
+        <div class="container">
+            <div class="block"><label id="lblnamesurname">Nom et Prenom: </label><input type="text"
+                    name="namesurname" id="namesurname" class="form" required="required"></div>
+            <br>
+            <div class="block"><label id="lbllocalidad">Adresse:</label><input type="text" name="local" id="locality"
+                    class="form" required="required"></div>
+            <br>
+            <div class="block"><label id="lbltelefono">Téléphone: </label><input type="text" name="phone" id="phone"
+                    class="form"></div>
+            <br>
+            <div class="block"><label id="lblemail">Email: </label><input type="email" name="email_job" id="email_job"
+                    class="form" required="required"></div>
+            <br>
+            <div class="block">
+                <div class="col-md-4"><label>Departament: </label><select id="select-department" name="department"
+                        class="dep">
+                        <option value="1. Réception">1. Réception</option>
+                        <option value="2. Cuisine">2. Cuisine</option>
+                        <option value="3. Restaurant/Bar">3. Restaurant/Bar</option>
+                        <option value="4. Animation">4. Animation</option>
+                        <option value="5. Administration">5. Administration</option>
+                        <option value="6. Chambres">6. Chambres</option>
+                        <option value="7. Autres">7. Autres</option>
+                    </select></div>
+                <br>
+                <div class="col-md-4"><label for="file">Ajouter CV: </label><input type="file" name="file"
+                        required="required"><label for="file">
+                        <span class="textfile">AJOUTER ARCHIVE pdf, doc</span></label>
+                </div>
+            </div>
+            <br>
+            <div class="block"><span><i>Avant de soumettre ce formulaire, vous devez lire les informations de base
+                        sur protection des données ci-dessous.</i></span></div>
+            <div class="block"><input id="checkbox" type="checkbox" name="checkbox" required="required"><span>Je
+                    souhaite faire partie du site d'emploi de HOTEL ADKINE, S.A.</span>
+            </div>
+            <br>
+            <div class="block"><span><b><u>Informations de base sur la confidentialité</u>:</b>Informations de base
+                    sur confidentialité : Le responsable du traitement est HOTEL ADKINE, S.A. Le but est la gestion du
+                    site d'emploi et contrôle des processus de sélection.<br />Vous disposez d'un droit d'accès, de
+                    rectification et supprimer les données, ainsi que d'autres droits comme expliqué dans le <a
+                        href="conditions-generales.html" target="_blank">politique de confidentialité</a> </span></div>
+            <div style="text-align: right; margin-top: 35px;">
+                <div class="result"></div><button class="submit" id="button-accept"><span>Envoyer</span></button>
+            </div>
+        </div>
+        <br>
+ <!-- mon footer  -->
+ <footer>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <h5 class="contact">CONTACT & ACCÉS</h5>
+                <hr class="separateur">
+                <p class="loc">
+                    <a href="https://maps.app.goo.gl/GRBqqMMWhuJC8r1g6">
+                        <i class="fas fa-map-marker-alt"></i> Carrer de Ramon Muntaner, 25, 07800 Ibiza, Balearic
+                        Islands,Espagne
+                    </a>
+                </p>
+                <p class="mail">
+                    <a href="mailto:hotel.adkine@yahoo.com">
+                        <i class="fas fa-envelope"></i> hotel.adkine@yahoo.com
+                    </a>
+                </p>
+                <p class="phone">
+                    <a href="tel:+33-123-456-789">
+                        <i class="fas fa-phone"></i> +33 123 456 789
+                    </a>
+                </p>
+            </div>
+
+            <div class="col-md-3">
+                <h5 class="contact">CARTE</h5>
+                <hr class="separateur">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.806967193781!2d1.422332974413107!3d38.90552934622681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1299472bdb11d721%3A0xf65ec37b4fc5d60b!2sEurostars%20Ibiza!5e0!3m2!1ses!2sfr!4v1710852827023!5m2!1ses!2sfr"
+                    width="200" height="125" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <br><br>
+            <div class="col-md-4">
+                <h5 class="liens">LIENS UTILES</h5>
+                <hr class="separateur">
+                <p class="liens"><a href="presse.html">● Presse</a></p>
+                <p class="liens"><a href="evenements.html">● Événements</a></p>
+                <p class="liens"><a href="avis.html">● Avis</a></p>
+                <p class="liens"><a href="recrutement.html">● Recrutement</a></p>
+                <p class="liens"><a href="quisommesnous.html">● Qui sommes nous?</a></p>
+            </div>
+            <div class="col-md-12">
+                <a class="logoh" href="index.html"><img src="/img/loho.png" alt="logo ADKINE"></a>
+            </div>
+        </div>
+        <div class="footer-links">
+            <a href="mentions-legales.html">Mentions Légales</a><i>●</i>
+            <a href="conditions-generales.html">Conditions Générales de Vente</a>
+        </div>
+        <input type="text" id="searchInput" placeholder="Rechercher...">
+            <ul id="searchResults"></ul>  
+            <li class="liens1">
+                <a href="chambres.html">Chambres</a>
+                <a href="restaurant.html">Restaurant</a>
+                <a href="spa.html">Spa</a>
+                <a href="contact.html">Contact</a>
+                <a href="avis.html">avis</a>
+                <a href="presse.html">Presse</a>
+                <a href="evenements.html">Événements</a>
+                <a href="reservation.html">Réservation</a>
+                <a href="recrutement.html">Recrutement</a>
+                <a href="quisommesnous.html">Qui sommes nous?</a>
+                <a href="mentions-legales.html">Mentions Légales</a>
+                <a href="conditions-generales.html">Conditions Générales</a>
+                <a href="contact.html">Contact</a>
+            </li>      
+        <p>&copy; 2024 Hôtel ADKINE. Tous droits réservés. CONCU par FATOU KINÉ NDIAYE</p>
+    </div>
+</footer>
+<!-- fin du footer -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>
